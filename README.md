@@ -65,6 +65,6 @@ I then did a nonstop ping and created a firewall in National Secrutiy Groups, to
   </p>
 <img src="https://i.imgur.com/BqlDG1p.png" height="80%" width="80%" alt="DNS/Udp.port==53"/>
 <p>
-Next, I explored gaining access to the other computers command line. I filtered for SSH Traffic (tcp.port ==22) and DNS (udp.port ==53). 
+Next, I explored gaining access to the other computers command line. I filtered for SSH Traffic (tcp.port ==22), DNS (udp.port ==53), and RDP (tcp.port ==3389). 
 </p>
 <br />
