@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/tHGpmFH.png" height="80%" width="80%" alt="Virtual Machine Creation"/>
 </p>
 <p>
-Using Azure, I created and resource group following 2 virtual machines. The first operating on Windows and the second running on Linux.
+Using Azure, I created a resource group following 2 virtual machines. The first operating on Windows and the second running on Linux.
 </p>
 <br />
 
@@ -44,7 +44,7 @@ Using Azure, I created and resource group following 2 virtual machines. The firs
 <img src="https://i.imgur.com/4plaY3W.png" height="80%" width="80%" alt="ICMP"/>
 </p>
 <p>
-I remote desktop connected into VM1 and then installed Wireshark onto that. Filtering for ICMP, I pinged VM2 and observing the network traffic. 
+I remote desktop connected into VM1 and then installed Wireshark onto that. Filtering for ICMP, I pinged VM2 and observed the network traffic. 
 </p>
 <br />
 
@@ -53,7 +53,7 @@ I remote desktop connected into VM1 and then installed Wireshark onto that. Filt
 <p>
 <img src="https://i.imgur.com/z03WRJ8.png" height="80%" width="80%" alt="FireWall"/>
 <p>
-I went into VM2's network security group and blocked ICMP traffic to observe the hault in traffic as the firewall started to block the access between the two networks. 
+I went into VM2's network security group and blocked ICMP traffic to observe the stop in traffic as the firewall blocked access between the two networks. 
 </p>
 <br />
 
