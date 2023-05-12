@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/tHGpmFH.png" height="80%" width="80%" alt="Virtual Machine Creation"/>
 </p>
 <p>
-Using Azure, I created 2 virtula machines. The first operating on Windows and the second running on Linux.
+Using Azure, I created 2 virtual machines. The first operating on Windows and the second running on Linux.
 </p>
 <br />
 
@@ -44,7 +44,7 @@ Using Azure, I created 2 virtula machines. The first operating on Windows and th
 <img src="https://i.imgur.com/4plaY3W.png" height="80%" width="80%" alt="ICMP"/>
 </p>
 <p>
-I then installed Wireshark and first filterd for ICMP. I observed png request and reply within Wireshark. I then did a non stop ping (-t).
+I then installed Wireshark and first filterd for ICMP. With the assistance of Powershell, I observed png request and replies within Wireshark. I then did a non stop ping (-t).
 </p>
 <br />
 
