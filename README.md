@@ -63,7 +63,7 @@ I then did a nonstop ping and created a firewall in National Secrutiy Groups, to
 <img src="https://i.imgur.com/THVGZrJ.png" height="80%" width="80%" alt="TCP.Port==22"/>
 <p>
   </p>
-<img src="https://i.imgur.com/BqlDG1.png" height="80%" width="80%" alt="DNS/Udp.port==53"/>
+<img src="https://i.imgur.com/BqlDG1p.png" height="80%" width="80%" alt="DNS/Udp.port==53"/>
 <p>
 Next, I explored gaining access to the other computers command line. I filtered for SSH Traffic (tcp.port ==22) and DNS (udp.port ==53). 
 </p>
