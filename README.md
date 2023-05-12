@@ -50,7 +50,8 @@ I then installed Wireshark and first filterd for ICMP. With the assistance of Po
 
 <p>
 <img src="https://i.imgur.com/SimoCCJ.png" height="80%" width="80%" alt="FireWall"/>
-</p>
+<p>
+<img src="https://i.imgur.com/z03WRJ8.png" height="80%" width="80%" alt="FireWall"/>
 <p>
 I then did a nonstop ping and created a firewall in National Secrutiy Groups, to block incoming traffic from that server. 
 </p>
