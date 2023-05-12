@@ -53,7 +53,7 @@ I remote desktop connected into VM1 and then installed Wireshark onto that. Filt
 <p>
 <img src="https://i.imgur.com/z03WRJ8.png" height="80%" width="80%" alt="FireWall"/>
 <p>
-I went into VM2's network security group and blocked ICMP traffic, observing the hault in traffic when access was denied.  firewall in National Secrutiy Groups, to block incoming traffic from that server. 
+I went into VM2's network security group and blocked ICMP traffic to observe the hault in traffic as the firewall started to block the access between the two networks. 
 </p>
 <br />
 
