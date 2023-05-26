@@ -48,7 +48,7 @@ Remote desktop connect into VM1 and then install Wireshark onto that. Filter for
 <p>
 <img src="https://i.imgur.com/z03WRJ8.png" height="80%" width="80%" alt="FireWall"/>
 <p>
-Go into VM2's network security group and block ICMP traffic to observe the stop in traffic as the firewall blocks access between the two networks. 
+Go into VM2's network security group and block ICMP traffic to observe the stop in traffic, as the firewall blocks access between the two networks. 
 </p>
 <br />
 
@@ -60,6 +60,6 @@ Go into VM2's network security group and block ICMP traffic to observe the stop 
   </p>
 <img src="https://i.imgur.com/BqlDG1p.png" height="80%" width="80%" alt="DNS/Udp.port==53"/>
 <p>
-Next, I explored gaining access to the other computers command line. I filtered for SSH Traffic (tcp.port ==22), DNS (udp.port ==53), and RDP (tcp.port ==3389). 
+Next, explore gaining access to the other computer's command line. Filter for SSH Traffic (tcp.port ==22), DNS (udp.port ==53), and RDP (tcp.port ==3389). 
 </p>
 <br />
